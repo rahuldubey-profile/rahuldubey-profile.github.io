@@ -134,14 +134,11 @@ header {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
         url('Rahul_img.png');
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center top;
     height: 50vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .logo {
