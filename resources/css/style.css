@@ -122,12 +122,26 @@ a:visited {
 /* HEADER */
 /* -------------------------------------------- */
 
-header {
+/* header {
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.5)),to(rgba(0, 0, 0, 0))), url(Rahul_img.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0)), url(Rahul_img.png);
     background-size: cover;
     background-position: center;
     height: 50vh;
+} */
+
+header {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url('Rahul_img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
