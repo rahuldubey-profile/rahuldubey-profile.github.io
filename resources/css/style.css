@@ -110,6 +110,19 @@ h2:after {
     margin-top: -7px;
 }
 
+a.blue-link:link,
+a.blue-link:visited {
+    color: #1a73e8; /* Google Blue */
+    text-decoration: none;
+}
+
+a.blue-link:hover,
+a.blue-link:active {
+    color: #0c47b7;
+    text-decoration: underline;
+}
+
+
 /* ------- LINKS ------- */
 
 a:link,
